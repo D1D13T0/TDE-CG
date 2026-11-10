@@ -1,0 +1,66 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 13.07.2026 13:59:14
+
+newmtl MAT_Castle_Exterior
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.59 0.59 0.59
+	Kd 0.59 0.59 0.59
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+	map_Ka CastleEDiff.jpg
+	map_Kd CastleEDiff.jpg
+	map_bump CastleEBump.jpg
+	bump CastleEBump.jpg
+
+newmtl MAT_Towers_Doors_and_Windows
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.59 0.59 0.59
+	Kd 0.59 0.59 0.59
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+	map_Ka TowersDDiff.jpg
+	map_Kd TowersDDiff.jpg
+	map_bump TowersDBump.jpg
+	bump TowersDBump.jpg
+
+newmtl MAT_Ground_and_Fountain
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.59 0.59 0.59
+	Kd 0.59 0.59 0.59
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+	map_Ka GroundADiff.jpg
+	map_Kd GroundADiff.jpg
+	map_bump GroundABump.jpg
+	bump GroundABump.jpg
+
+newmtl MAT_Castle_Interior
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.59 0.59 0.59
+	Kd 0.59 0.59 0.59
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+	map_Ka CastleIDiff.jpg
+	map_Kd CastleIDiff.jpg
+	map_bump CastleIBump.jpg
+	bump CastleIBump.jpg

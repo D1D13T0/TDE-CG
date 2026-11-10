@@ -1,0 +1,25 @@
+# Cache/configurações locais do Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.ipch
+ipch/
+
+# Arquivos intermediários de compilação
+BaseAppOGL/bin-int/
+
+# Saída da compilação (mantém apenas as DLLs necessárias para executar)
+BaseAppOGL/bin/**/*.exe
+BaseAppOGL/bin/**/*.pdb
+BaseAppOGL/bin/**/*.ilk
+BaseAppOGL/bin/**/*.exp
+BaseAppOGL/bin/**/*.lib
+BaseAppOGL/bin/**/*.idb
+BaseAppOGL/bin/**/*.log
+BaseAppOGL/bin/**/*.recipe
+
+# Arquivos gerados ao executar a aplicação
+BaseAppOGL/imgui.ini
+BaseAppOGL/OpenGL_Info.txt

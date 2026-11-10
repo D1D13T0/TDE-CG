@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Engine\CAsset.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CPrimitives.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CSceneBase.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CSceneManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CTextures.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CText.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CTimer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CGridAxis.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CTerrain.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CSkybox.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui_demo.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui_draw.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui_impl_glfw.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui_tables.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imgui\imgui_widgets.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CScreenQuad.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene0\Scene0.cpp">
+      <Filter>Scenes\Scene0</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene1\Scene1.cpp">
+      <Filter>Scenes\Scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene2\Scene2.cpp">
+      <Filter>Scenes\Scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene3\Scene3.cpp">
+      <Filter>Scenes\Scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene4\Scene4.cpp">
+      <Filter>Scenes\Scene4</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene4\CLoaderTxt.cpp">
+      <Filter>Scenes\Scene4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\CCamera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CAsset.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CPrimitives.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CSceneBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CShader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Defines.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CInputManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CSceneManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CTextures.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CText.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CTimer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CGridAxis.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CTerrain.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CSkybox.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imconfig.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imgui.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imgui_impl_glfw.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imgui_impl_opengl3.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imgui_internal.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imstb_rectpack.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imstb_textedit.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imgui\imstb_truetype.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CScreenQuad.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\stb_image.h">
+      <Filter>Engine\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene0\Scene0.h">
+      <Filter>Scenes\Scene0</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene1\Scene1.h">
+      <Filter>Scenes\Scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene2\Scene2.h">
+      <Filter>Scenes\Scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene3\Scene3.h">
+      <Filter>Scenes\Scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene4\Scene4.h">
+      <Filter>Scenes\Scene4</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene4\CLoaderTxt.h">
+      <Filter>Scenes\Scene4</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Common\CSimpleMesh.h">
+      <Filter>Scenes\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scenes\Common\Text2D.frag">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Text2D.vert">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\axis.frag">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\axis.vert">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\grid.frag">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\grid.vert">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Assets.frag">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Assets.vert">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Normals.frag">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Normals.vert">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Lista1.frag">
+      <Filter>Scenes\Common</Filter>
+    </None>
+    <None Include="Scenes\Common\Lista1.vert">
+      <Filter>Scenes\Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{d91d2136-5c55-4691-a3f4-c26236a964ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{c9422ba8-1e60-40ff-b542-8c40eb9bde84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene0">
+      <UniqueIdentifier>{e2fa19c6-f416-44b0-9247-b37f68c24a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene1">
+      <UniqueIdentifier>{bd886e0d-0d14-450f-bd44-7874122d62e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene2">
+      <UniqueIdentifier>{482c9295-5560-4111-b18c-7b7f38113372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene3">
+      <UniqueIdentifier>{2fc96171-f004-41a7-9949-d4c33219fe4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene4">
+      <UniqueIdentifier>{a1c4b539-5bc7-4494-bbdf-cdae3743008f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Common">
+      <UniqueIdentifier>{f031ac74-4dbc-4646-87f0-ab62eb99590c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\imgui">
+      <UniqueIdentifier>{d796f740-1865-4510-b03f-c1be1bd519e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\stb_image">
+      <UniqueIdentifier>{f265e2ac-3cc4-40d4-9abb-47c708d4901d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

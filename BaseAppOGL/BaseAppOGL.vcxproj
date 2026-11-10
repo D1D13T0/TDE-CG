@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\CCamera.h" />
+    <ClInclude Include="Engine\CGridAxis.h" />
+    <ClInclude Include="Engine\CAsset.h" />
+    <ClInclude Include="Engine\CPrimitives.h" />
+    <ClInclude Include="Engine\CSceneBase.h" />
+    <ClInclude Include="Engine\CScreenQuad.h" />
+    <ClInclude Include="Engine\CShader.h" />
+    <ClInclude Include="Engine\CSkybox.h" />
+    <ClInclude Include="Engine\CTerrain.h" />
+    <ClInclude Include="Engine\CText.h" />
+    <ClInclude Include="Engine\CTextures.h" />
+    <ClInclude Include="Engine\CTimer.h" />
+    <ClInclude Include="Engine\Defines.h" />
+    <ClInclude Include="Engine\imgui\imconfig.h" />
+    <ClInclude Include="Engine\imgui\imgui.h" />
+    <ClInclude Include="Engine\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="Engine\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Engine\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="Engine\imgui\imgui_internal.h" />
+    <ClInclude Include="Engine\imgui\imstb_rectpack.h" />
+    <ClInclude Include="Engine\imgui\imstb_textedit.h" />
+    <ClInclude Include="Engine\imgui\imstb_truetype.h" />
+    <ClInclude Include="Engine\CInputManager.h" />
+    <ClInclude Include="Engine\CSceneManager.h" />
+    <ClInclude Include="Engine\stb_image.h" />
+    <ClInclude Include="Scenes\Scene0\Scene0.h" />
+    <ClInclude Include="Scenes\Scene1\Scene1.h" />
+    <ClInclude Include="Scenes\Scene2\Scene2.h" />
+    <ClInclude Include="Scenes\Scene3\Scene3.h" />
+    <ClInclude Include="Scenes\Scene4\Scene4.h" />
+    <ClInclude Include="Scenes\Scene4\CLoaderTxt.h" />
+    <ClInclude Include="Scenes\Common\CSimpleMesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\CGridAxis.cpp" />
+    <ClCompile Include="Engine\CAsset.cpp" />
+    <ClCompile Include="Engine\CPrimitives.cpp" />
+    <ClCompile Include="Engine\CSceneBase.cpp" />
+    <ClCompile Include="Engine\CScreenQuad.cpp" />
+    <ClCompile Include="Engine\CSkybox.cpp" />
+    <ClCompile Include="Engine\CTerrain.cpp" />
+    <ClCompile Include="Engine\CText.cpp" />
+    <ClCompile Include="Engine\CTextures.cpp" />
+    <ClCompile Include="Engine\CTimer.cpp" />
+    <ClCompile Include="Engine\imgui\imgui.cpp" />
+    <ClCompile Include="Engine\imgui\imgui_demo.cpp" />
+    <ClCompile Include="Engine\imgui\imgui_draw.cpp" />
+    <ClCompile Include="Engine\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="Engine\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Engine\imgui\imgui_tables.cpp" />
+    <ClCompile Include="Engine\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Engine\main.cpp" />
+    <ClCompile Include="Engine\CSceneManager.cpp" />
+    <ClCompile Include="Scenes\Scene0\Scene0.cpp" />
+    <ClCompile Include="Scenes\Scene1\Scene1.cpp" />
+    <ClCompile Include="Scenes\Scene2\Scene2.cpp" />
+    <ClCompile Include="Scenes\Scene3\Scene3.cpp" />
+    <ClCompile Include="Scenes\Scene4\Scene4.cpp" />
+    <ClCompile Include="Scenes\Scene4\CLoaderTxt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scenes\Common\Assets.frag" />
+    <None Include="Scenes\Common\Lista1.frag" />
+    <None Include="Scenes\Common\Lista1.vert" />
+    <None Include="Scenes\Common\Assets.vert" />
+    <None Include="Scenes\Common\axis.frag" />
+    <None Include="Scenes\Common\axis.vert" />
+    <None Include="Scenes\Common\grid.frag" />
+    <None Include="Scenes\Common\grid.vert" />
+    <None Include="Scenes\Common\Normals.frag" />
+    <None Include="Scenes\Common\Normals.vert" />
+    <None Include="Scenes\Common\Text2D.frag" />
+    <None Include="Scenes\Common\Text2D.vert" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{A7C1D3E5-4B2F-4A3C-9D8E-1F2A3B4C5D6E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BaseAppOGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin-int\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin-int\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(OpenGL_SDK)\GLFW\include;$(OpenGL_SDK)\glew\include;$(OpenGL_SDK)\GLM;$(OpenGL_SDK)\Assimp\include;$(ProjectDir);$(OpenGL_SDK)\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <StringPooling>
+      </StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OpenGL_SDK)\glfw\lib;$(OpenGL_SDK)\glew\lib;$(OpenGL_SDK)\assimp\lib;$(OpenGL_SDK)\glm\lib;$(OpenGL_SDK)\freetype\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;glew32d.lib;assimp-vc145-mtd.lib;glm.lib;freetype.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)dependencies\GLFW\include;$(SolutionDir)dependencies\GLEW\include;$(SolutionDir)dependencies\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)dependencies\GLFW\lib-vc2022;$(SolutionDir)dependencies\GLEW\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;glew32s.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
